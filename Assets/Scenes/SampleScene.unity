@@ -270,7 +270,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5cbb6af03e924541879a58a1649d234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _movementDirection: {x: 1, y: 0, z: 0}
   _speed: 1
 --- !u!114 &368849900
 MonoBehaviour:
@@ -284,7 +283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 916d27b63ed669746b94178a57f705ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scalingDirection: {x: 3, y: 3, z: 3}
+  _scalingAxis: {x: 3, y: 3, z: 3}
   _scalingSpeed: 1
 --- !u!114 &368849901
 MonoBehaviour:
@@ -298,7 +297,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e04fb37edd3548b0f025637482e73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotateDirection: {x: 0, y: 1, z: 0}
   _speedRotate: 14
 --- !u!1 &515950413
 GameObject:
@@ -332,7 +330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 916d27b63ed669746b94178a57f705ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scalingDirection: {x: 3, y: 3, z: 3}
+  _scalingAxis: {x: 3, y: 3, z: 3}
   _scalingSpeed: 1
 --- !u!136 &515950415
 CapsuleCollider:
@@ -641,7 +639,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5cbb6af03e924541879a58a1649d234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _movementDirection: {x: 1, y: 0, z: 0}
   _speed: 1
 --- !u!135 &1207169483
 SphereCollider:
@@ -788,7 +785,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e04fb37edd3548b0f025637482e73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotateDirection: {x: 0, y: 1, z: 0}
   _speedRotate: 25
 --- !u!65 &1934705187
 BoxCollider:

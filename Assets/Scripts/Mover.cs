@@ -4,12 +4,7 @@ using UnityEngine;
 
 public class Mover : MonoBehaviour
 {
-    [SerializeField] private Vector3 _movementDirection;
     [SerializeField] private float _speed;
-    private void Start()
-    {
-        
-    }
 
     private void Update()
     {

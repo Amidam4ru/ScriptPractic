@@ -4,12 +4,7 @@ using UnityEngine;
 
 public class Rotator : MonoBehaviour
 {
-    [SerializeField] private Vector3 _rotateDirection;
     [SerializeField] private float _speedRotate;
-    private void Start()
-    {
-        
-    }
 
     private void Update()
     {
